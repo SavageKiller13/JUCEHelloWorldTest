@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="l6ZHA7" name="HelloWorld" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="PWSzcy" name="HelloWorld">
+    <GROUP id="{2EB8FEE4-47F2-06DE-F7C4-5D2576681519}" name="Source">
+      <FILE id="BELpRX" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="FGPZSR" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="dzb2JY" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="HelloWorld"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="HelloWorld"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../ForkRepos/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../ForkRepos/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../ForkRepos/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../ForkRepos/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../ForkRepos/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
